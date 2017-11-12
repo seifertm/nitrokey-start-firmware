@@ -61,4 +61,8 @@ diff before.status after.status
 
 ### Testing the device
 
-It is possible to test the device after flashing. Please make sure python 3 and python-pytest are installed (see requirements above). Now please run `pytest -vx ../tests/test_*` to test the firmware.
+It is possible to test the device after flashing. Please make sure python 3 and python-pytest are installed (see requirements above). Now please change to the tests directory and execute the tests `pytest -vx ../tests/test_*` to test the firmware:
+```
+cd ../tests
+pytest -vx test_*
+```
